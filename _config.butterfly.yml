@@ -284,15 +284,15 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 这里是我的学习记录
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/winter-donge
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: <b>欢迎来访</b>，新博客持续施工中🚧
   card_recent_post:
     enable: true
     # If set 0 will show all
