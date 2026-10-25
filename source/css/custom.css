@@ -2,6 +2,7 @@
 #subtitle .my-name {
   font-family: "KaiTi", "楷体", "STKaiti", "Noto Serif SC", serif;
   font-weight: 700;
+  padding: 0 0.25em;
   background: linear-gradient(120deg, #ffd76f, #ff9a62);
   -webkit-background-clip: text;
   background-clip: text;
