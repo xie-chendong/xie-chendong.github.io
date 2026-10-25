@@ -1,7 +1,6 @@
-/* 首页横幅副标题中"名字"的差异化样式：楷体 + 更大更粗 + 金橙渐变色 */
+/* 首页横幅副标题中"名字"的差异化样式：楷体 + 金橙渐变色，大小与正文一致 */
 #subtitle .my-name {
   font-family: "KaiTi", "楷体", "STKaiti", "Noto Serif SC", serif;
-  font-size: 1.35em;
   font-weight: 700;
   background: linear-gradient(120deg, #ffd76f, #ff9a62);
   -webkit-background-clip: text;
