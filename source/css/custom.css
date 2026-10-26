@@ -1,13 +1,17 @@
-/* 首页横幅副标题中"名字"的差异化样式：楷体 + 金橙渐变色，大小与正文一致 */
-#subtitle .my-name {
-  font-family: "KaiTi", "楷体", "STKaiti", "Noto Serif SC", serif;
+#navbar .navbar-brand strong {
+  font-family: system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 700;
-  padding: 0 0.25em;
-  background: linear-gradient(120deg, #ffd76f, #ff9a62);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 6px rgba(255, 190, 100, 0.35));
+  letter-spacing: 0.08em;
+}
+
+.home-slogan {
+  display: inline-block;
+  font-family: "Cascadia Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #eaf7ff;
+  text-shadow: 0 0 12px rgba(117, 211, 255, 0.28), 0 0 28px rgba(81, 136, 255, 0.16);
 }
 
 /* 目录项包含嵌套列表，不能把整个列表项限制成两行。 */
