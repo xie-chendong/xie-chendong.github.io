@@ -9,3 +9,10 @@
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 6px rgba(255, 190, 100, 0.35));
 }
+
+/* 目录项包含嵌套列表，不能把整个列表项限制成两行。 */
+#toc-body .toc-list-item {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
