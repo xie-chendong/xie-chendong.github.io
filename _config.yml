@@ -31,6 +31,7 @@ i18n_dir: :lang
 skip_render:
   - downloads/redis-rate-limit/**
   - downloads/mybatis-perf-track/**
+  - downloads/mybatis-plus-type-handler/**
 
 # Writing
 new_post_name: :title.md # File name of new posts
